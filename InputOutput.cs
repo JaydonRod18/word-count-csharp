@@ -8,22 +8,23 @@ namespace Rodrigues.WordCount.App15
 {
     public class InputOutput
     {
-        public InputOutput() { } //It is the constructor
+        public InputOutput() { }
 
-        public void showMessageToUser(String message)  //It shows a message to the user
+        public void showMessageToUser(String message)
         {
-            Console.WriteLine(message); //It shows the message
+            Console.WriteLine(message);
         }
 
-        public void skipALine() //It skips a line
+        public void skipALine()
         {
-            Console.WriteLine(); //It skips a line
+            Console.WriteLine();
         }
 
-        public String obtainInputFromUser(String message) //It obtains input from the user
+        public String obtainInputFromUser(String message)
         {
-            Console.Write(message + "  "); //It shows the message
-            return Console.ReadLine(); //It returns the input from the user
+            Console.Write(message + "  ");
+            return Console.ReadLine();
         }
     }
 }
+
