@@ -9,7 +9,6 @@ namespace Rodrigues.WordCount.App15
     public class BalancedTree
     {
         public BalancedTree() { }
-
-
     }
 }
+
